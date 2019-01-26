@@ -8,8 +8,9 @@ using System;
             Console.WriteLine("Please write your name");
 
             string UserName = Console.ReadLine();
-
+           
             Console.WriteLine("Hello " + UserName);
-        }
+            Console.ReadKey();
+    }
     }
 
